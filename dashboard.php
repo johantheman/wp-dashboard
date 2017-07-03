@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -148,7 +149,6 @@
                 </div>
             </div>
         </nav>
-
 
 
         <div class="content">
@@ -350,7 +350,7 @@
     	});
 	</script>
 
-    <!--    Google Charts   -->
-    <script src="assets/js/charts.js"></script>
+
 
 </html>
+<?php include 'assets/php/chart.php';?>

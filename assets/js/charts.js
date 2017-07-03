@@ -11,7 +11,7 @@ function drawChart() {
     //Statistics pie chart
     var data = google.visualization.arrayToDataTable([
         ['Task', 'Hours per Day'],
-        ['Open',     11],
+        ['Open',     15],
         ['Bounce',      2],
         ['Unsubscribe',  2]
 
