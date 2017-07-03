@@ -1,10 +1,13 @@
 <?php
-//chart variables
-////////////////chart 1
+/**
+ * Chart 1 (pie chart)
+ */
 $open = "SELECT COUNT(`Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Open';";
 $bounce = "SELECT COUNT(`Email`) AS Total FROM `reporting_data` WHERE `Event Type` LIKE '%bounce';";
 $unsubscribe = "SELECT COUNT(`Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Opt Out';";
-////////////////chart 2
+/**
+ * Chart 2 (line graph)
+ */
 $click = "SELECT COUNT(`Email`) AS Total FROM `reporting_data` WHERE `Event Type` LIKE 'Click%';";
 $uclick = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` LIKE 'Click%';";
 $Open_9AM = "SELECT COUNT(`Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Open' AND `Event Timestamp` LIKE '%2017 09%'";
@@ -31,7 +34,9 @@ $Uclick_3PM = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHE
 $Open_4PM = "SELECT COUNT(`Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Open' AND `Event Timestamp` LIKE '%2017 16%'";
 $Click_4PM = "SELECT COUNT(`Email`) AS Total FROM `reporting_data` WHERE `Event Type` LIKE 'Click%' AND `Event Timestamp` LIKE '%2017 16%'";
 $Uclick_4PM = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` LIKE 'Click%' AND `Event Timestamp` LIKE '%2017 16%'";
-////////////////chart 3
+/**
+ * Chart 3 (bar chart)
+ */
 $jan_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '01%' AND `Mailing Name` LIKE '%Premium%';";
 $jan_sent_compact = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '01%' AND `Mailing Name` LIKE '%Compact%';";
 $feb_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '02%' AND `Mailing Name` LIKE '%Premium%';";
