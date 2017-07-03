@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d060d8a5-5c2c-48d8-a63b-bf29426c4444" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/php/chart.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/php/connection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dashboard.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/notifications.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/charts.js" afterPath="$PROJECT_DIR$/assets/js/charts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard.html" afterPath="$PROJECT_DIR$/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notifications.html" afterPath="$PROJECT_DIR$/notifications.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table.html" afterPath="$PROJECT_DIR$/table.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/php/chartdata.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/php/metric.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/php/chart.php" afterPath="$PROJECT_DIR$/assets/php/chart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/php/connection.php" afterPath="$PROJECT_DIR$/assets/php/connection.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wp-dashboard.iws" />
@@ -36,72 +31,92 @@
       <file leaf-file-name="table.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connection.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/php/connection.php">
+      <file leaf-file-name="chartdata.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/php/chartdata.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769">
-              <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.4866785">
+              <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chart.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/php/chart.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-37.26923">
+              <caret line="60" column="53" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="metric.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/php/metric.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.9615384">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="5" />
               <folding>
-                <marker date="1499073384517" expanded="true" signature="345:425" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="533:619" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="736:819" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="944:1029" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="1139:1233" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="1347:1466" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="1584:1708" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="1829:1962" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="2084:2203" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="2324:2448" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="2572:2705" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="2829:2948" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="3069:3193" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="3317:3450" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="3574:3693" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="3814:3938" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="4062:4195" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="4318:4437" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="4555:4679" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="4800:4933" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="5054:5173" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="5291:5415" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="5536:5669" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="5790:5909" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="6028:6152" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="6273:6406" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="6527:6646" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="6764:6888" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="7009:7142" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="7329:7487" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="7628:7786" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="7928:8086" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="8227:8385" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="8529:8687" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="8834:8992" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="9140:9298" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="9445:9603" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="9749:9907" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="10048:10206" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="10349:10507" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="10651:10809" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="10954:11112" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="11256:11414" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="11561:11719" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="11869:12027" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="12181:12339" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="12498:12656" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="12814:12972" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="13125:13283" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="13438:13596" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="13752:13910" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="14067:14225" placeholder="SELECT COUNT..." />
-                <marker date="1499073384517" expanded="true" signature="14381:14539" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="57:137" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="152:238" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="258:341" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="379:464" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="479:573" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="590:709" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="726:850" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="868:1001" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="1018:1137" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="1155:1279" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="1298:1431" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="1448:1567" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="1585:1709" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="1728:1861" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="1878:1997" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="2015:2139" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="2158:2291" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="2307:2426" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="2443:2567" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="2585:2718" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="2734:2853" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="2870:2994" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="3012:3145" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="3161:3280" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="3297:3421" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="3439:3572" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="3588:3707" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="3724:3848" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="3866:3999" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="4047:4205" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="4230:4388" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="4413:4571" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="4596:4754" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="4781:4939" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="4966:5124" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="5151:5309" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="5336:5494" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="5519:5677" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="5702:5860" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="5886:6044" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="6070:6228" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="6254:6412" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="6438:6596" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="6624:6782" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="6810:6968" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="6999:7157" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="7188:7346" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="7375:7533" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="7562:7720" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="7750:7908" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="7938:8096" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="8126:8284" placeholder="SELECT COUNT..." />
+                <marker date="1499078536565" expanded="true" signature="8314:8472" placeholder="SELECT COUNT..." />
               </folding>
             </state>
           </provider>
@@ -117,11 +132,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chart.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/php/chart.php">
+      <file leaf-file-name="connection.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/php/connection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78507996">
-              <caret line="50" column="78" selection-start-line="50" selection-start-column="78" selection-end-line="50" selection-end-column="78" />
+            <state vertical-scroll-proportion="-8.5">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -160,8 +175,11 @@
         <option value="$PROJECT_DIR$/dashboard.html" />
         <option value="$PROJECT_DIR$/assets/js/charts.js" />
         <option value="$PROJECT_DIR$/dashboard.php" />
-        <option value="$PROJECT_DIR$/assets/php/connection.php" />
+        <option value="$PROJECT_DIR$/assets/php/var.php" />
+        <option value="$PROJECT_DIR$/assets/php/metric.php" />
         <option value="$PROJECT_DIR$/assets/php/chart.php" />
+        <option value="$PROJECT_DIR$/assets/php/connection.php" />
+        <option value="$PROJECT_DIR$/assets/php/chartdata.php" />
       </list>
     </option>
   </component>
@@ -365,65 +383,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/php/connection.php">
+    <entry file="file://$PROJECT_DIR$/assets/php/chartdata.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="172" column="25" selection-start-line="172" selection-start-column="25" selection-end-line="172" selection-end-column="25" />
-          <folding>
-            <marker date="1499073384517" expanded="true" signature="345:425" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="533:619" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="736:819" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="944:1029" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="1139:1233" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="1347:1466" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="1584:1708" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="1829:1962" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="2084:2203" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="2324:2448" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="2572:2705" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="2829:2948" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="3069:3193" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="3317:3450" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="3574:3693" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="3814:3938" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="4062:4195" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="4318:4437" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="4555:4679" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="4800:4933" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="5054:5173" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="5291:5415" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="5536:5669" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="5790:5909" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="6028:6152" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="6273:6406" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="6527:6646" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="6764:6888" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="7009:7142" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="7329:7487" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="7628:7786" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="7928:8086" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="8227:8385" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="8529:8687" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="8834:8992" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="9140:9298" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="9445:9603" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="9749:9907" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="10048:10206" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="10349:10507" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="10651:10809" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="10954:11112" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="11256:11414" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="11561:11719" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="11869:12027" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="12181:12339" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="12498:12656" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="12814:12972" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="13125:13283" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="13438:13596" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="13752:13910" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="14067:14225" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="14381:14539" placeholder="SELECT COUNT..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -649,76 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/charts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="67" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/php/connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
-          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-          <folding>
-            <marker date="1499073384517" expanded="true" signature="345:425" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="533:619" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="736:819" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="944:1029" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="1139:1233" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="1347:1466" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="1584:1708" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="1829:1962" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="2084:2203" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="2324:2448" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="2572:2705" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="2829:2948" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="3069:3193" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="3317:3450" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="3574:3693" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="3814:3938" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="4062:4195" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="4318:4437" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="4555:4679" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="4800:4933" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="5054:5173" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="5291:5415" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="5536:5669" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="5790:5909" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="6028:6152" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="6273:6406" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="6527:6646" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="6764:6888" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="7009:7142" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="7329:7487" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="7628:7786" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="7928:8086" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="8227:8385" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="8529:8687" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="8834:8992" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="9140:9298" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="9445:9603" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="9749:9907" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="10048:10206" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="10349:10507" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="10651:10809" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="10954:11112" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="11256:11414" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="11561:11719" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="11869:12027" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="12181:12339" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="12498:12656" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="12814:12972" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="13125:13283" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="13438:13596" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="13752:13910" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="14067:14225" placeholder="SELECT COUNT..." />
-            <marker date="1499073384517" expanded="true" signature="14381:14539" placeholder="SELECT COUNT..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-175.88461">
@@ -727,10 +621,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../backup2/backup2/credentials.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.030195381">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="6" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/php/connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/charts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="67" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/php/metric.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <marker date="1499078536565" expanded="true" signature="57:137" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="152:238" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="258:341" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="379:464" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="479:573" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="590:709" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="726:850" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="868:1001" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="1018:1137" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="1155:1279" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="1298:1431" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="1448:1567" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="1585:1709" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="1728:1861" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="1878:1997" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="2015:2139" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="2158:2291" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="2307:2426" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="2443:2567" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="2585:2718" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="2734:2853" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="2870:2994" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="3012:3145" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="3161:3280" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="3297:3421" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="3439:3572" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="3588:3707" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="3724:3848" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="3866:3999" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="4047:4205" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="4230:4388" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="4413:4571" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="4596:4754" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="4781:4939" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="4966:5124" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="5151:5309" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="5336:5494" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="5519:5677" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="5702:5860" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="5886:6044" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="6070:6228" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="6254:6412" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="6438:6596" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="6624:6782" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="6810:6968" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="6999:7157" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="7188:7346" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="7375:7533" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="7562:7720" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="7750:7908" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="7938:8096" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="8126:8284" placeholder="SELECT COUNT..." />
+            <marker date="1499078536565" expanded="true" signature="8314:8472" placeholder="SELECT COUNT..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/php/chart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78507996">
-          <caret line="50" column="78" selection-start-line="50" selection-start-column="78" selection-end-line="50" selection-end-column="78" />
+        <state vertical-scroll-proportion="-37.26923">
+          <caret line="60" column="53" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/php/chartdata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4866785">
+          <caret line="52" column="51" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
           <folding />
         </state>
       </provider>
