@@ -48,7 +48,7 @@ require 'chartdata.php';
 		var options = {
 			hAxis: {title: ' ',  titleTextStyle: {color: '#fff'}},
 			vAxis: {minValue: 0,
-				ticks: [0, 100, 200, 300, 400, 500, 1000, 2000, 5000, 10000]},
+				ticks: [0, 100, 200, 300, 400, 500, 1000, 2000]},
 			legend: {position: 'none'}
 		};
 

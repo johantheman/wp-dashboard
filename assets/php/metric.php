@@ -37,24 +37,24 @@ $Uclick_4PM = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHE
 /**
  * Chart 3 (bar chart)
  */
-$jan_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '01%' AND `Mailing Name` LIKE '%Premium%';";
-$jan_sent_compact = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '01%' AND `Mailing Name` LIKE '%Compact%';";
-$feb_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '02%' AND `Mailing Name` LIKE '%Premium%';";
-$feb_sent_compact = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '02%' AND `Mailing Name` LIKE '%Compact%';";
-$march_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '03%' AND `Mailing Name` LIKE '%Premium%';";
-$march_sent_compact = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '03%' AND `Mailing Name` LIKE '%Compact%';";
-$april_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '04%' AND `Mailing Name` LIKE '%Premium%';";
-$april_sent_compact = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '04%' AND `Mailing Name` LIKE '%Compact%';";
-$may_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '05%' AND `Mailing Name` LIKE '%Premium%';";
-$may_sent_compact = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '05%' AND `Mailing Name` LIKE '%Compact%';";
-$june_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '06%' AND `Mailing Name` LIKE '%Premium%';";
-$june_sent_compact = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '06%' AND `Mailing Name` LIKE '%Compact%';";
-$july_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '07%' AND `Mailing Name` LIKE '%Premium%';";
-$july_sent_compact = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '07%' AND `Mailing Name` LIKE '%Compact%';";
-$august_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '08%' AND `Mailing Name` LIKE '%Premium%';";
-$august_sent_compact = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '08%' AND `Mailing Name` LIKE '%Compact%';";
-$september_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '09%' AND `Mailing Name` LIKE '%Premium%';";
-$september_sent_compact = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '09%' AND `Mailing Name` LIKE '%Compact%';";
+$jan_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '1%' AND `Mailing Name` LIKE '%Premium%';";
+$jan_sent_compact = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '1%' AND `Mailing Name` LIKE '%Compact%';";
+$feb_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '2%' AND `Mailing Name` LIKE '%Premium%';";
+$feb_sent_compact = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '2%' AND `Mailing Name` LIKE '%Compact%';";
+$march_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '3%' AND `Mailing Name` LIKE '%Premium%';";
+$march_sent_compact = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '3%' AND `Mailing Name` LIKE '%Compact%';";
+$april_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '4%' AND `Mailing Name` LIKE '%Premium%';";
+$april_sent_compact = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '4%' AND `Mailing Name` LIKE '%Compact%';";
+$may_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '5%' AND `Mailing Name` LIKE '%Premium%';";
+$may_sent_compact = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '5%' AND `Mailing Name` LIKE '%Compact%';";
+$june_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '6%' AND `Mailing Name` LIKE '%Premium%';";
+$june_sent_compact = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '6%' AND `Mailing Name` LIKE '%Compact%';";
+$july_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '7%' AND `Mailing Name` LIKE '%Premium%';";
+$july_sent_compact = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '7%' AND `Mailing Name` LIKE '%Compact%';";
+$august_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '8%' AND `Mailing Name` LIKE '%Premium%';";
+$august_sent_compact = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '8%' AND `Mailing Name` LIKE '%Compact%';";
+$september_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '9%' AND `Mailing Name` LIKE '%Premium%';";
+$september_sent_compact = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '9%' AND `Mailing Name` LIKE '%Compact%';";
 $october_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '10%' AND `Mailing Name` LIKE '%Premium%';";
 $october_sent_compact = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '10%' AND `Mailing Name` LIKE '%Compact%';";
 $november_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '11%' AND `Mailing Name` LIKE '%Premium%';";
