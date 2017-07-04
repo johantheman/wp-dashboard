@@ -5,7 +5,7 @@
 	<link rel="icon" type="image/png" href="assets/img/favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>Light Bootstrap Dashboard by Creative Tim</title>
+    <title>Grapevine Reporting Services</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
@@ -48,14 +48,14 @@
 
             <ul class="nav">
                 <li>
-                    <a href="dashboard.html">
+                    <a href="dashboard.php">
                         <i class="pe-7s-graph"></i>
                         <p>Dashboard</p>
                     </a>
                 </li>
 
                 <li>
-                    <a href="table.html">
+                    <a href="table.php">
                         <i class="pe-7s-note2"></i>
                         <p>Table List</p>
                     </a>
@@ -63,7 +63,7 @@
 
 
                 <li class="active">
-                    <a href="notifications.html">
+                    <a href="notifications.php">
                         <i class="pe-7s-bell"></i>
                         <p>Notifications</p>
                     </a>
@@ -83,7 +83,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Notifications</a>
+                    <a class="navbar-brand" href="dashboard.php">Dashboard</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-left">
@@ -93,21 +93,20 @@
                             </a>
                         </li>
                         <li>
-                            <a href="table.html">
+                            <a href="table.php">
                                 <i class="fa fa-table"></i>
                             </a>
                         </li>
-                        <li class="dropdown">
+                        <li >
                             <a href="table.html" class="dropdown-toggle" data-toggle="dropdown">
                                 <i class="fa fa-globe"></i>
                                 <b class="caret"></b>
                                 <span class="notification">3</span>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="notifications.html">Notification 1</a></li>
-                                <li><a href="notifications.html">Notification 2</a></li>
-                                <li><a href="notifications.html">Notification 3</a></li>
-
+                                <li><a href="notifications.php">Notification 1</a></li>
+                                <li><a href="notifications.php">Notification 2</a></li>
+                                <li><a href="notifications.php">Notification 3</a></li>
                             </ul>
                         </li>
 
@@ -115,8 +114,8 @@
 
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                           <a href="">
-                               Account
+                            <a href="">
+                                Account
                             </a>
                         </li>
                         <li class="dropdown">
@@ -125,11 +124,11 @@
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Support Services</a></li>
-                                <li><a href="#">Account Manager</a></li>
-                                <li><a href="#">Reporting Services</a></li>
+                                <li><a href="#myModal" data-toggle="modal">Support Services</a></li>
+                                <li><a href="#myModal" data-toggle="modal">Account Manager</a></li>
+                                <li><a href="#myModal" data-toggle="modal">Reporting Services</a></li>
                                 <li class="divider"></li>
-                                <li><a href="#">Contact Information</a></li>
+                                <li><a href="#myModal" data-toggle="modal">Contact Information</a></li>
                             </ul>
                         </li>
                         <li>
@@ -221,6 +220,42 @@
     </div>
 </div>
 
+<!--modal begins here-->
+<div class="modal fade slide left" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+
+                </button>
+                <h3 class="modal-title" id="myModalLabel">We would love to hear from you</h3>
+
+            </div>
+            <div class="modal-body">
+                <!--<p class="lead">Please get in touch!</p>-->
+                <form method="post" id="myForm">
+                    <div class="form-group">
+                        <label for="name">Your name:</label>
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Name" value="" required/>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your email:</label>
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Email" value="" required/>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Your comment:</label>
+                        <textarea class="form-control" id="comment" name="comment" required></textarea>
+                    </div>
+                    <input type="submit" name="submit" class="btn btn-success btn-md" value="Forward">
+                </form>
+            </div>
+            <div class="modal-footer">
+                <!--<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel Form</button>-->
+            </div>
+        </div>
+    </div>
+</div>
+<!--end modal-->
 
 </body>
 
