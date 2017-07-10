@@ -61,3 +61,7 @@ $november_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reportin
 $november_sent_compact = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '11%' AND `Mailing Name` LIKE '%Compact%';";
 $december_sent_premium = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '12%' AND `Mailing Name` LIKE '%Premium%';";
 $december_sent_compact = "SELECT COUNT(DISTINCT `Email`) AS Total FROM `reporting_data` WHERE `Event Type` = 'Sent' AND `Event Timestamp` LIKE '12%' AND `Mailing Name` LIKE '%Compact%';";
+/**
+ * table.php summary total
+ */
+$premium_total = "";

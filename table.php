@@ -1,3 +1,12 @@
+<?php
+error_reporting(E_ALL ^ E_WARNING);
+include 'assets\php\connection.php';
+include 'assets\php\functions.php';
+
+
+
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -138,7 +147,6 @@
             </div>
         </nav>
 
-        <!--    select list with date picker    -->
         <div class="content">
             <div class="container-fluid">
                 <div class="row">
@@ -148,26 +156,36 @@
                                 <h4 class="title">Mail Selector</h4>
                                 <p class="category">Last 30 days email stats</p>
                             </div>
-                            <div class="content">
-                                <div class="form-group">
-                                    <label for="sel1">Select list:</label>
-                                    <select class="form-control" id="sel1">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                        <option>6</option>
-                                        <option>7</option>
-                                        <option>8</option>
-                                        <option>9</option>
-                                    </select>
-                                    <div class="content" align="center">
+                            <div class="content " style="padding: 30px">
+                                <form action="table.php" method="POST" role="form" class="form-horizontal">
 
 
-                                   <a href="#" role="button" class="btn btn-primary btn-md" data-toggle="collapse" data-target="#table">Run Report</a>
-                                    </div>
-                                </div>
+
+                                    <div class="form-group" >
+
+                                        <select name="mail" class="form-control" id="sel1">
+                                            <option <?php if(isset($_POST['mail'])){if($_POST['mail'] == "1"){echo 'selected="selected"';}}?> value="1">Premium - 1</option>
+                                            <option <?php if(isset($_POST['mail'])){if($_POST['mail'] == "2"){echo 'selected="selected"';}}?> value="2">Premium - 2</option>
+                                            <option <?php if(isset($_POST['mail'])){if($_POST['mail'] == "3"){echo 'selected="selected"';}}?> value="3">Premium - 3</option>
+                                            <option <?php if(isset($_POST['mail'])){if($_POST['mail'] == "4"){echo 'selected="selected"';}}?> value="4" >Premium - 4</option>
+                                            <option <?php if(isset($_POST['mail'])){if($_POST['mail'] == "5"){echo 'selected="selected"';}}?> value="5">Premium - 5</option>
+                                            <option <?php if(isset($_POST['mail'])){if($_POST['mail'] == "6"){echo 'selected="selected"';}}?> value="6">Premium - 6</option>
+                                            <option <?php if(isset($_POST['mail'])){if($_POST['mail'] == "7"){echo 'selected="selected"';}}?> value="7">Premium - 7</option>
+                                            <option <?php if(isset($_POST['mail'])){if($_POST['mail'] == "8"){echo 'selected="selected"';}}?> value="8">Premium - 8</option>
+                                            <option <?php if(isset($_POST['mail'])){if($_POST['mail'] == "9"){echo 'selected="selected"';}}?> value="9">Premium - 9</option>
+                                            <option <?php if(isset($_POST['mail'])){if($_POST['mail'] == "10"){echo 'selected="selected"';}}?> value="10">Premium - 10</option>
+                                            <option <?php if(isset($_POST['mail'])){if($_POST['mail'] == "11"){echo 'selected="selected"';}}?> value="11">Premium - 11</option>
+                                            <option <?php if(isset($_POST['mail'])){if($_POST['mail'] == "12"){echo 'selected="selected"';}}?> value="12">Compact - 1</option>
+                                            <option <?php if(isset($_POST['mail'])){if($_POST['mail'] == "13"){echo 'selected="selected"';}}?> value="13">Compact - 2</option>
+                                            <option <?php if(isset($_POST['mail'])){if($_POST['mail'] == "14"){echo 'selected="selected"';}}?> value="14">Compact - 3</option>
+                                            <option <?php if(isset($_POST['mail'])){if($_POST['mail'] == "15"){echo 'selected="selected"';}}?> value="15">Compact - 4</option>
+                                            <option <?php if(isset($_POST['mail'])){if($_POST['mail'] == "16"){echo 'selected="selected"';}}?> value="16">Compact - 5</option>
+                                            <option <?php if(isset($_POST['mail'])){if($_POST['mail'] == "17"){echo 'selected="selected"';}}?> value="17">Compact - 6</option>
+                                        </select><br>
+                                        <br>
+
+                                        <p align="center"> <button type="submit" class="btn btn-primary btn-large">Run Report</button></p>
+                                </form>
 
                             </div>
                         </div>
@@ -175,148 +193,78 @@
                 </div>
 
 
-
             </div>
-            <div id="table" class="collapse">
-                <div class="content">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="card">
-                                    <div class="header">
-                                        <h4 class="title">Daily Mail Statistics</h4>
-                                        <p class="category">Last 30 days email stats</p>
-                                    </div>
-                                    <div class="content table-responsive table-full-width">
-                                        <table class="table table-hover table-striped">
-                                            <thead>
-                                            <th>Date</th>
-                                            <th>Sent</th>
-                                            <th>Rec</th>
-                                            <th>Rec %</th>
-                                            <th>TOpen</th>
-                                            <th>UOpen</th>
-                                            <th>Open %</th>
-                                            <th>TClick</th>
-                                            <th>UClick</th>
-                                            <th>Click %</th>
-                                            <th>Bounced</th>
-                                            <th>Bounced %</th>
-                                            <th>Unsub</th>
-                                            <th>Unsub %</th>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
+            <?php
 
-                                            </tr>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                            </tr>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                            </tr>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                            </tr>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                            </tr>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                                <td>1</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
+            //creating the mailer views
 
-                                    </div>
-                                </div>
-                            </div>
+            if(isset($_POST['mail'])){
+                $select1 = $_POST['mail'];
+                switch ($select1){
+                    case "1":
+                        display_row_premium(1);
+                        break;
+                    case "2":
+                        display_row_premium(2);
+                        break;
+                    case "3":
+                        display_row_premium(3);
+                        break;
+                    case "4":
+                        display_row_premium(4);
+                        break;
+                    case "5":
+                        display_row_premium(5);
+                        break;
+                    case "6":
+                        display_row_premium(6);
+                        break;
+                    case "7":
+                        display_row_premium(7);
+                        break;
+                    case "8":
+                        display_row_premium(8);
+                        break;
+                    case "9":
+                        display_row_premium(9);
+                        break;
+                    case "10":
+                        display_row_premium(10);
+                        break;
+                    case "11":
+                        display_row_premium(11);
+                        break;
+                    case "12":
+                        display_row_compact(1);
+                        break;
+                    case "13":
+                        display_row_compact(2);
+                        break;
+                    case "14":
+                        display_row_compact(3);
+                        break;
+                    case "15":
+                        display_row_compact(4);
+                        break;
+                    case "16":
+                        display_row_compact(5);
+                        break;
+                    case "17":
+                        display_row_compact(6);
+                        break;
+
+                    default:
+                        display_row_premium(7);
+                        break;
+                }
+
+            }
 
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <footer class="footer">
+            ?>
+</div></div>
+
+            <footer class="footer">
             <div class="container-fluid">
                 <nav class="pull-left">
                     <ul>

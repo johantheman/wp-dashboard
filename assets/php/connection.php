@@ -1,4 +1,5 @@
 <?php
+require 'metric.php';
 $servername = "localhost";
 $username = "root";
 $password = "";
