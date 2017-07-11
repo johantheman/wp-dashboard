@@ -1,4 +1,5 @@
 <?php
+include 'connection.php';
 
 /** chartdata.php */
 function query($sql){
@@ -10,7 +11,7 @@ function query($sql){
 
 /** table.php */
 $day = array();
-$start = '07/01/2017';
+$start = date("m/d/Y",strtotime("-30 day"));
 $end = date("m/d/Y",strtotime("-0 day"));
 for ($n = 0; $start <  $end ; $n++) {
 	$end = date("m/d/Y",strtotime("-".$n." day"));
@@ -202,5 +203,4 @@ function display_row_compact($i){
              ';
 
 }
-
 

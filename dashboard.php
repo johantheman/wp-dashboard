@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -171,7 +170,7 @@
                                     </div>
                                     <hr>
                                     <div class="stats">
-                                        <i class="fa fa-clock-o"></i> Campaign sent 2 days ago
+                                        <i class="fa fa-clock-o"></i> Campaign sent <?php include 'assets\php\widgets.php'; echo $dls; ?> ago
                                     </div>
                                 </div>
                             </div>
@@ -194,7 +193,7 @@
                                     </div>
                                     <hr>
                                     <div class="stats">
-                                        <i class="fa fa-history"></i> Updated 3 minutes ago
+                                        <i class="fa fa-history"></i> Updated <?php echo $ct; ?>
                                     </div>
                                 </div>
                             </div>
@@ -389,4 +388,4 @@
 
 
 </html>
-<?php include 'assets/php/chart.php';?>
+<?php include 'assets/php/chart.php'; ?>
