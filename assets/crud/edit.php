@@ -8,27 +8,29 @@ if(isset($_POST['update']))
 	$id = mysqli_real_escape_string($mysqli, $_POST['id']);
 	
 	$name = mysqli_real_escape_string($mysqli, $_POST['name']);
-
+	$age = mysqli_real_escape_string($mysqli, $_POST['age']);
 	$email = mysqli_real_escape_string($mysqli, $_POST['email']);	
 	
 	// checking empty fields
-	if(empty($name) || empty($email)) {
+	if(empty($name) || empty($age) || empty($email)) {	
 			
 		if(empty($name)) {
 			echo "<font color='red'>Name field is empty.</font><br/>";
 		}
 		
-
+		if(empty($age)) {
+			echo "<font color='red'>Age field is empty.</font><br/>";
+		}
 		
 		if(empty($email)) {
 			echo "<font color='red'>Email field is empty.</font><br/>";
 		}		
 	} else {	
 		//updating the table
-		$result = mysqli_query($mysqli, "UPDATE notes SET name='$name',email='$email' WHERE id=$id");
+		$result = mysqli_query($mysqli, "UPDATE notes SET name='$name',age='$age',email='$email' WHERE id=$id");
 		
-		//redirectig to the display page. In our case, it is notes.php
-		header("Location: notes.php");
+		//redirectig to the display page. In our case, it is index.php
+		header("Location: index.php");
 	}
 }
 ?>
@@ -42,6 +44,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM notes WHERE id=$id");
 while($res = mysqli_fetch_array($result))
 {
 	$name = $res['name'];
+	$age = $res['age'];
 	$email = $res['email'];
 }
 ?>
@@ -51,7 +54,7 @@ while($res = mysqli_fetch_array($result))
 </head>
 
 <body>
-	<a href="notes.php">Home</a>
+	<a href="index.php">Home</a>
 	<br/><br/>
 	
 	<form name="form1" method="post" action="edit.php">
@@ -60,9 +63,12 @@ while($res = mysqli_fetch_array($result))
 				<td>Name</td>
 				<td><input type="text" name="name" value="<?php echo $name;?>"></td>
 			</tr>
-
 			<tr> 
-				<td>Comment</td>
+				<td>Age</td>
+				<td><input type="text" name="age" value="<?php echo $age;?>"></td>
+			</tr>
+			<tr> 
+				<td>Email</td>
 				<td><input type="text" name="email" value="<?php echo $email;?>"></td>
 			</tr>
 			<tr>

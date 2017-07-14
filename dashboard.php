@@ -237,32 +237,24 @@
                                 <div class="table-full-width">
                                     <table class="table">
                                         <tbody>
-
-
-<!--
                                         <tr>
                                             <td>
                                                 <label class="checkbox">
                                                     <input type="checkbox" value="" data-toggle="checkbox">
                                                 </label>
                                             </td>
-                                            <td>-->
-                                                                <iframe style="" src="crud/notes.php">
-
-                                                                </iframe>
-                                           <!-- </td>
+                                            <td>Check the email stats for tuesday</td>
                                             <td class="td-actions text-right">
                                                 <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-xs">
                                                     <i class="fa fa-edit"></i>
-                                                    </button>
+                                                </button>
                                                 <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-
                                                     <i class="fa fa-times"></i>
-
                                                 </button>
                                             </td>
-                                        </tr>-->
-                                        </tbody>
+                                        </tr>
+
+                                    </tbody>
                                     </table>
                                 </div>
 
